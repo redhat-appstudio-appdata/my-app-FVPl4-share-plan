@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-73ky
+  namespace: rhn-support-tshearon-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:51c04c812a3dd4d5a61bdac91c46b4dca3d937e82f90ba1873e6a73989d04b94
+        name: my-nodejs
+        resources: {}
+status: {}
