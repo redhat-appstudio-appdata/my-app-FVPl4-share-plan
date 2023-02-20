@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-73ky
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:FVPl4-devfile-sample-73ky
+      - image: quay.io/redhat-appstudio/user-workload@sha256:51c04c812a3dd4d5a61bdac91c46b4dca3d937e82f90ba1873e6a73989d04b94
         name: my-nodejs
         ports:
         - containerPort: 3001
